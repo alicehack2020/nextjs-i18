@@ -1,8 +1,10 @@
 import React from 'react'
 import {getDictionary} from "../../../dictionary"
-const page =async ({params}:{params:any}) => {
-  const lang = await getDictionary(params.lang);
-
+const page = async ({ params }: { params: any }) => {
+  const lang: any = await getDictionary(params.lang);
+  if (!lang || !lang.form) {
+    console.log(`Language dictionary not found or invalid structure for lang: ${params.lang}`);
+  }
   return (
     <div className='gap-2 grid place-content-center h-screen shadow-md'>
       <div className='gap-2 flex flex-col'>

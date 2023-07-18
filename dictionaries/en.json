@@ -1,7 +1,9 @@
 {
-    "form": {
-      "name": "name",
-      "email": "email",
-      "city": "city"
-    }
+  "form": {
+    "name": "name",
+    "email": "email",
+    "city": "city",
+    "title": "post",
+    "data": "A full pocket shows a man 'the world'... And an empty pocket represents the 'people' of the world. Who can lift a sack of 100 kg of grain, He cannot buy it and What can be bought cannot be lifted. 'Strange but true' If you get everything you want...!! Life would have been fun and God would not have been worth it…!! Good friends and medicine work to ease the pain in our lives. The only difference is that medicines have an expiry date, but friends don't…"
   }
+}
