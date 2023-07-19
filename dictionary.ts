@@ -6,7 +6,8 @@ export const getDictionary = async (lang: string) => {
 
   if (dictionaries[lang]) {
     return dictionaries[lang]();
-  } else {
-    console.log(`Dictionary  language not found.`);
   }
+  // else {
+  //   console.log(`Dictionary  language not found.`);
+  // }
 };
